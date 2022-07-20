@@ -5,7 +5,7 @@ pipeline {
 stages {
  stage('Checkout') {
     steps {
-     git url: 'https://github.com/Kabi16/Project.git', branch: 'master'
+     git url: 'https://github.com/Kabi16/dotnethelloworld.git', branch: 'main'
      }
   }
 
